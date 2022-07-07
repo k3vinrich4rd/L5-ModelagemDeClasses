@@ -1,8 +1,9 @@
 package quadrado;
 
-public class Quadrado {
+public class Quadrado { // Classe
     public double tamanhoDoLado;
 
+    // Construtor
     public Quadrado(){
         this.tamanhoDoLado = 0;
 
