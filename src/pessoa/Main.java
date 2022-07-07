@@ -14,7 +14,7 @@ public class Main {
 
         System.out.println("Seu nome é " + pessoa.nome + "\nSeu peso é " + peso + " kg" + "\nSua altura é " + altura + " cm" + "\nSua idade é " + idade + " anos");
 
-        System.out.println("Você engordou nesse meio tempo? [S/N]");
+        System.out.print("Você engordou nesse meio tempo? [S/N]: ");
         String resposta = input.next();
         if (resposta.equalsIgnoreCase("s")) {
             pessoa.engordar();

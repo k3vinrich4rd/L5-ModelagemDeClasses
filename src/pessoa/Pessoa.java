@@ -15,9 +15,18 @@ public class Pessoa {
         this.altura = altura;
     }
 
+    public void envelhecer() {
+        this.idade = this.idade + 1;
+        if (this.idade < 21) {
+            crescer(0.05);
+        }
+
+
+    }
+
     public void engordar() {
         Scanner entrada = new Scanner(System.in);
-        System.out.println("Quantos quilos você engordou?");
+        System.out.print("Quantos quilos você engordou?: ");
         double engodar = entrada.nextDouble();
         this.peso += engodar;
 
@@ -28,9 +37,14 @@ public class Pessoa {
         peso -= emagrecer;
     }
 
+    public void crescer(double altura3 ) {
+        this.altura += altura3;
+
+    }
+
     public void status() {
         System.out.println("O seu peso agora é " + this.peso);
-        System.out.println("A sua idade no próximo ano será " + (this.idade +1) + "\nA sua altura no próximo ano será " + (this.altura + 0.05));
+        System.out.println("A sua idade no próximo ano será " + (this.idade + 1) + "\nA sua altura no próximo ano será " + (this.altura + 0.05));
 
     }
 }
