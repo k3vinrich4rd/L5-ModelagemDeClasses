@@ -2,8 +2,10 @@ package pessoa;
 
 import java.util.Scanner;
 
-public class Main {
+public class MainPessoa {
     public static void main(String[] args) {
+
+
         Scanner input = new Scanner(System.in);
         String respostaPeso = null;
         Pessoa pessoa = new Pessoa("Kevin Richard", 90, 1.69, 19);

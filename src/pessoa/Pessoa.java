@@ -47,6 +47,8 @@ public class Pessoa {
         System.out.println("A sua idade no próximo ano será " + (this.idade + 1) + "\nA sua altura no próximo ano será " + (this.altura + 0.05));
 
     }
+
+
 }
 
 

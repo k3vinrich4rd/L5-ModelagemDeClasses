@@ -2,7 +2,7 @@ package quadrado;
 
 public class QuadradoMain {
     public static void main(String[] args) {
-        Quadrado quadrado = new Quadrado();
+        MainQuadrado quadrado = new MainQuadrado();
         quadrado.tamanhoDoLado = 30;
         quadrado.area();
     }

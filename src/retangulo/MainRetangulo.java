@@ -1,6 +1,6 @@
 package retangulo;
 
-public class Main {
+public class MainRetangulo {
     public static void main(String[] args) {
         Retangulo retangulo = new Retangulo();
         retangulo.base = 10;

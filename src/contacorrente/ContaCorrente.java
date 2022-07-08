@@ -13,6 +13,6 @@ public class ContaCorrente {
     }
 
     public void status() {
-        System.out.println("Número da conta" + this.numeroDaConta + "\npertence ao correntista " + this.nomeDoCorrentista + "\ncom um total de saldo de " + this.saldo);
+        System.out.println("Número da conta: " + this.numeroDaConta + "\npertence ao correntista: " + this.nomeDoCorrentista + "\ncom um total de saldo de " + this.saldo);
     }
 }

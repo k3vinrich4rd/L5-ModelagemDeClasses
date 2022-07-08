@@ -1,10 +1,10 @@
 package quadrado;
 
-public class Quadrado { // Classe
+public class MainQuadrado { // Classe
     public double tamanhoDoLado;
 
     // Construtor
-    public Quadrado(){
+    public MainQuadrado(){
         this.tamanhoDoLado = 0;
 
     }
