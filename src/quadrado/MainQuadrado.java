@@ -8,8 +8,8 @@ public class MainQuadrado { // Classe
         this.tamanhoDoLado = 0;
 
     }
-    public void area(){
-        System.out.println("A área do quadrado é igual: " + (tamanhoDoLado * tamanhoDoLado) + " cm²ª");
+    public double areaDoQuadrado(){
+        return tamanhoDoLado * tamanhoDoLado;
 
     }
 }
