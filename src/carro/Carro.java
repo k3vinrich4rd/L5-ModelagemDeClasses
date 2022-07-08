@@ -5,14 +5,20 @@ public class Carro {
     String modelo;
     String marca;
     double potencia;
+    boolean ligaCarro;
 
     public Carro() {
         this.quantidadeDePortas = quantidadeDePortas;
         this.modelo = modelo;
         this.marca = marca;
         this.potencia = 2.0;
+        this.ligaCarro = false;
 
+    }
 
+    public void ligarCarro() {
+        this.ligaCarro = true;
+        System.out.println("O carro está " + (String) "ligado");
     }
 
     public void status() {
