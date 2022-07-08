@@ -16,14 +16,21 @@ public class Carro {
 
     }
 
-    public void ligarCarro() {
-        this.ligaCarro = true;
-        System.out.println("O carro está " + (String) "ligado");
+    public boolean ligarCarro() {
+        if (this.ligaCarro == true) {
+            System.out.println("O carro está ligado");
+        } else {
+            System.out.println("O carro está desligado");
+        }
+
+        return ligaCarro;
     }
 
     public void status() {
         System.out.println("O modelo deste carro é: " + this.modelo + " \nÉ pertencente a marca: " + this.marca + "\nTem: " + this.quantidadeDePortas + " portas (passageiro/motorista)" + "\nE a sua potência é de: " + this.potencia + " cilindrada");
 
     }
-
 }
+
+
+
