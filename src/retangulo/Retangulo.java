@@ -9,7 +9,10 @@ public class Retangulo {
         this.altura = 0;
 
     }
-    public void areDoRetangulo(){
-        System.out.println("A área do retângulo é: " + (base * altura));
+    public double areDoRetangulo(){
+       return (base * altura);
+    }
+    public double perimetroDoretangulo(){
+        return (base + base + altura + altura);
     }
 }

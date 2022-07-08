@@ -5,6 +5,9 @@ public class MainRetangulo {
         Retangulo retangulo = new Retangulo();
         retangulo.base = 10;
         retangulo.altura = 20;
-        retangulo.areDoRetangulo();
+        System.out.println("A área do retângulo é de: "+ retangulo.areDoRetangulo());
+        System.out.println("A área do perimetro é de: "+ retangulo.perimetroDoretangulo());
+
+
     }
 }
